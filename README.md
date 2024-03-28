@@ -23,28 +23,6 @@ Make sure you have the following installed on your machine:
 - [npm](https://www.npmjs.com/) (Node Package Manager)
 - [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
 
-**Cloning the Repository**
-
-```bash
-git clone https://github.com/julien-muke/aws-amplify-cognito-app.git
-cd aws-amplify-cognito-app
-```
-
-**Installation**
-
-Install the project dependencies using npm:
-
-```bash
-npm install
-```
-
-**Running the Project**
-
-```bash
-npm run dev
-```
-
-Open [http://localhost:5173](http://localhost:5173) in your browser to view the project.
 
 ## <a name="snippets">🕸️ Code Snippets</a>
 
