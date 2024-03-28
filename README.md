@@ -3,15 +3,13 @@
 
 ## 🤖 Introduction
 
-Learn how to run a Python Docker image on AWS Lambda using Lambda container images.
-
-Using Docker containers for your Python app on AWS Lambda means you can create a special environment for your app with its own tools and settings, making sure it works everywhere, and also making it easy to include all the things (libraries and packages)your app needs to run correctly.
+In this hands-on tutorial, I’ll show you how to build a simple React app (a quiz app) using AWS Amplify and Cognito.  We’ll also see how to set up continuous integration and continuous deployment (CI/CD) using GitHub.
 
 
 ## 📐 Design
 
 
-![Python Docker Image on AWS Lambda](https://github.com/julien-muke/aws-lambda-docker/assets/110755734/860be5b2-ccd9-4f91-b4ac-b9dfd8d305a5)
+
 
 
 ## ⚙️ Requirements
