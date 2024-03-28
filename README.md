@@ -9,7 +9,7 @@ In this hands-on tutorial, I’ll show you how to build a simple React app (a qu
 ## 📐 Design
 
 
-
+![React App-2](https://github.com/julien-muke/aws-amplify-cognito-app/assets/110755734/32192a33-56f8-4422-be3e-62a32c98aecc)
 
 
 ## ⚙️ Requirements
