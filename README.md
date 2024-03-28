@@ -12,27 +12,72 @@ In this hands-on tutorial, I’ll show you how to build a simple React app (a qu
 ![React App-2](https://github.com/julien-muke/aws-amplify-cognito-app/assets/110755734/32192a33-56f8-4422-be3e-62a32c98aecc)
 
 
-## ⚙️ Requirements
+## <a name="quick-start">🤸 Quick Start</a>
 
-* Docker
-* AWS CLI
-* AWS CDK
+Follow these steps to set up the project locally on your machine.
+
+**Prerequisites**
+
+Make sure you have the following installed on your machine:
+
+- [Git](https://git-scm.com/)
+- [Node.js](https://nodejs.org/en)
+- [npm](https://www.npmjs.com/) (Node Package Manager)
+- [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
+
+**Cloning the Repository**
+
+```bash
+git clone https://github.com/julien-muke/aws-amplify-cognito-app.git
+cd aws-amplify-cognito-app
+```
+
+**Installation**
+
+Install the project dependencies using npm:
+
+```bash
+npm install
+```
+
+**Running the Project**
+
+```bash
+npm run dev
+```
+
+Open [http://localhost:5173](http://localhost:5173) in your browser to view the project.
+
+## <a name="snippets">🕸️ Snippets</a>
+
+<details>
+<summary><code>tailwind.config.js</code></summary>
+
+```javascript
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+  theme: {
+    extend: {
+      colors: {
+        blue: "#2997FF",
+        gray: {
+          DEFAULT: "#86868b",
+          100: "#94928d",
+          200: "#afafaf",
+          300: "#42424570",
+        },
+        zinc: "#101010",
+      },
+    },
+  },
+  plugins: [],
+};
+```
+
+</details>
 
 
-## 📋 Steps
-
-
-👉 Create CDK Project
-
-👉 Create a Python handler app
-
-👉 Create Dockerfile for Lambda
-
-👉 Test the Docker image locally
-
-👉 Create AWS Docker Lambda with CDK  
-
-👉 Deploying to AWS
 
 ## 💻 Useful commands
 
