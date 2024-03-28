@@ -8,9 +8,7 @@ In this hands-on tutorial, I’ll show you how to build a simple React app (a qu
 
 ## 📐 Design
 
-
-![React App](https://github.com/julien-muke/aws-amplify-cognito-app/assets/110755734/c97c1dba-9671-4730-a487-c6a7e7712b96)
-
+![React App](https://github.com/julien-muke/aws-amplify-cognito-app/assets/110755734/1f0e8ac3-6c83-4f5f-9a60-a42722167424)
 
 ## <a name="quick-start">🤸 Quick Start</a>
 
