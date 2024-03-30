@@ -10,6 +10,16 @@ In this hands-on tutorial, I’ll show you how to build a simple React app (a qu
 
 ![React App](https://github.com/julien-muke/aws-amplify-cognito-app/assets/110755734/1f0e8ac3-6c83-4f5f-9a60-a42722167424)
 
+## ☑️ Steps
+
+* Set up environment
+* Create the React App
+* Add authentication with Cognito
+* Add functionality and styling for quiz
+* Push local code to GitHub
+* Host the front end in Amplify via GitHub (for CI/CD)
+
+
 ## <a name="quick-start">🤸 Quick Start</a>
 
 Follow these steps to set up the project locally on your machine.
