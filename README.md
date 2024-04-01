@@ -314,6 +314,38 @@ you a step- byep of what's happening, we've already run amplify configure and se
 ![13](https://github.com/julien-muke/aws-amplify-cognito-app/assets/110755734/7a7af09b-e153-40ba-a0b4-6502b4d3f7af)
 
 
-* And then would you like to update or create AWS profile on your local machine, i'm going to call mine `amplify-dev-local` and this will save this information like the region, the keys on your local machine so that you don't have to do this every time so we'll hit enter and success
+* And then you would like to update or create AWS profile on your local machine, i'm going to call mine `amplify-dev-local` and this will save this information like the region, the keys on your local machine so that you don't have to do this every time so we'll hit enter and success
 
 ![14](https://github.com/julien-muke/aws-amplify-cognito-app/assets/110755734/6f0fe657-21d6-4c26-a266-ad436cec3332)
+
+
+## ➡️ Step 2 - Creating a new React app from VS Code
+
+* Back to vs code i'm going to run `npx create-react-app <name of your app>` and then whatever name you want to give it, i'm calling mine `my-quiz-app` this will install a vanilla react app
+* And then you want to change directories into whatever you named your app by running `cd <name of your app>`
+
+1. Next we need to initialize the amplify project within the react app, here it's going to ask you a series of questions like what do you want to name your amplify app in the cloud, what language are you using, what's your local IDE, to do that let run `amplify init` (it is recommended to run this from the root we're already in there):
+
+2. The name for the project this is the name that's going to show up in the AWS console when we go look at our amplify projects, it's different from what we just created locally on our file system, i will name it `myquizapp`
+
+3. Then click `Yes` to initailize the project the default configuration (you can select no if you want to customize the configuration)
+
+4. For authentication method, we did save the AWS profile that we set up earlier, you could enter Keys again but let's go with the AWS profile
+
+5. I called my `amplify-dev-local` so I'll select that
+
+
+![16](https://github.com/julien-muke/aws-amplify-cognito-app/assets/110755734/ebc2313b-9f3b-4591-a8cb-c4080b92d9e0)
+
+
+6. Next question, do we want to help amplify improve by sharing non-sensitive project configurations i'm going to say No 
+
+
+![17](https://github.com/julien-muke/aws-amplify-cognito-app/assets/110755734/06337109-a597-45e1-aa01-958fa529abed)
+
+
+* If we go out to the AWS console, i'll navigate to amplify, we've got my quiz app so this is the one that I just created from the command line
+
+![19](https://github.com/julien-muke/aws-amplify-cognito-app/assets/110755734/8f9fa609-2158-4e50-ba15-1a1227823784)
+
+
