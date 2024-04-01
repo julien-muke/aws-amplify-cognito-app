@@ -309,9 +309,11 @@ you a step- byep of what's happening, we've already run amplify configure and se
 ![12](https://github.com/julien-muke/aws-amplify-cognito-app/assets/110755734/87984ef4-38fc-467d-99b0-b7260d9a7d21)
 
 
-* You want to copy the access key go back to visual studio and paste it.
+* You want to copy the the access key ID and the secret access key go back to visual studio and paste it.
 
 ![13](https://github.com/julien-muke/aws-amplify-cognito-app/assets/110755734/7a7af09b-e153-40ba-a0b4-6502b4d3f7af)
 
 
-* 
+* And then would you like to update or create AWS profile on your local machine, i'm going to call mine `amplify-dev-local` and this will save this information like the region, the keys on your local machine so that you don't have to do this every time so we'll hit enter and success
+
+![14](https://github.com/julien-muke/aws-amplify-cognito-app/assets/110755734/6f0fe657-21d6-4c26-a266-ad436cec3332)
