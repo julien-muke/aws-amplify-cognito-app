@@ -304,4 +304,14 @@ you a step- byep of what's happening, we've already run amplify configure and se
 ![11](https://github.com/julien-muke/aws-amplify-cognito-app/assets/110755734/fdcfb227-ed2b-40c7-8b0d-54d2b5d37e67)
 
 
+* Specifically these will be for the CLI so select that, scroll down understand and accept and click next and create access key. 
+
+![12](https://github.com/julien-muke/aws-amplify-cognito-app/assets/110755734/87984ef4-38fc-467d-99b0-b7260d9a7d21)
+
+
+* You want to copy the access key go back to visual studio and paste it.
+
+![13](https://github.com/julien-muke/aws-amplify-cognito-app/assets/110755734/7a7af09b-e153-40ba-a0b4-6502b4d3f7af)
+
+
 * 
