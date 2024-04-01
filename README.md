@@ -251,4 +251,13 @@ const quizData = [
 </details>
 
 
-## ➡️ Step 1 - 
+## ➡️ Step 1 - Setting up the environment and installing the Amplify CLI
+
+* Open visual studio code and in the terminal we're going to do an npm install for the amplify CLI:
+* Copy and paste the command in the terminal `npm install -g @aws-amplify/cli`
+
+
+![1](https://github.com/julien-muke/aws-amplify-cognito-app/assets/110755734/7a86af16-c2c7-40c9-9432-28281633f324)
+
+
+* Next we need to configure amplify, this basically makes the CLI work with your AWS accounts, we'll have to set up a new user configure access keys. The command for that its just `amplify configure` 
