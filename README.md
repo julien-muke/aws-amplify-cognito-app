@@ -349,3 +349,16 @@ you a step- byep of what's happening, we've already run amplify configure and se
 ![19](https://github.com/julien-muke/aws-amplify-cognito-app/assets/110755734/8f9fa609-2158-4e50-ba15-1a1227823784)
 
 
+## ➡️ Step 3 - Adding authentication to the React app using Cognito
+
+1.  To Add authentication to the React app using Cognito, back to vs code in the command line run `amplify add auth`
+
+* This will ask you some questions about what exactly you want to do:
+
+2. We're going to go with a default configuration that will give us Cognito
+3. You can do Federation with a social provider like Facebook or Google, you can do manual configuration but we're just going to go
+with the default
+4. We want users to sign in using an email
+5. We don't want to do any advanced settings
+
+![20](https://github.com/julien-muke/aws-amplify-cognito-app/assets/110755734/cefbd17c-472c-4ccc-b1b4-97003a579f69)
