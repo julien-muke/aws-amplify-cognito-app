@@ -287,10 +287,21 @@ you a step- byep of what's happening, we've already run amplify configure and se
 ![7](https://github.com/julien-muke/aws-amplify-cognito-app/assets/110755734/680bd858-a23d-43fe-be5e-343996e2d4c9)
 
 
-* Next, for permissions options select `attach policies directly` then select the policy called `AdministratorAccess-Amplify` 
+* Next, for permissions options select `attach policies directly` then select the policy called `AdministratorAccess-Amplify` then click Next
 (if you don't see the policy name you can just type in amplify in the search bar and that will filter for you the policy name)
 
 ![8](https://github.com/julien-muke/aws-amplify-cognito-app/assets/110755734/43ebf783-f0c7-48d1-ae1b-8cecaf84f788)
+
+
+* Next you need to enter the access key ID and the secret access key for that user that you just created, back to IAM console select the user you just created
+
+
+![9](https://github.com/julien-muke/aws-amplify-cognito-app/assets/110755734/11e7a913-4b1d-4010-bbd9-20e67c91eed3)
+
+
+* Then you want to come to the security credentials Tab and scrolling down to access keys and create one
+
+![11](https://github.com/julien-muke/aws-amplify-cognito-app/assets/110755734/fdcfb227-ed2b-40c7-8b0d-54d2b5d37e67)
 
 
 * 
