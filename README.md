@@ -260,4 +260,21 @@ const quizData = [
 ![1](https://github.com/julien-muke/aws-amplify-cognito-app/assets/110755734/7a86af16-c2c7-40c9-9432-28281633f324)
 
 
-* Next we need to configure amplify, this basically makes the CLI work with your AWS accounts, we'll have to set up a new user configure access keys. The command for that its just `amplify configure` 
+* Next we need to configure amplify, this basically makes the CLI work with your AWS accounts, we'll have to set up a new user configure access keys. The command for that its just `amplify configure`
+* And that will launch a page to the AWS console asking you to sign in as an administrator account that has admin permissions, after you're signed in you just press enter
+
+![2](https://github.com/julien-muke/aws-amplify-cognito-app/assets/110755734/38ac248c-8e4c-4416-ba89-5a55080d5cd0)
+
+
+* Choose your region, i'm in `us-east-1`, just use your arrow keys up and down to select your region and then hit enter
+
+![4](https://github.com/julien-muke/aws-amplify-cognito-app/assets/110755734/862de61c-5eca-47fe-8d0c-bf30f04205a0)
+
+
+* Then this will launch the amplify documentation with instructions on what you need to do next, it's basically giving
+you a step- byep of what's happening, we've already run amplify configure and select our region
+
+![5](https://github.com/julien-muke/aws-amplify-cognito-app/assets/110755734/7763462e-8fe7-4c6f-bac5-83e0a76d2d1a)
+
+
+* Next what we need to do is navigate to the IAM user creation page in the console
