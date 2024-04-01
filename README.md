@@ -277,4 +277,20 @@ you a step- byep of what's happening, we've already run amplify configure and se
 ![5](https://github.com/julien-muke/aws-amplify-cognito-app/assets/110755734/7763462e-8fe7-4c6f-bac5-83e0a76d2d1a)
 
 
-* Next what we need to do is navigate to the IAM user creation page in the console
+* Next what we need to do is navigate to the IAM user creation page in the console, and create a user
+
+![6](https://github.com/julien-muke/aws-amplify-cognito-app/assets/110755734/c2abfb5b-952a-45d5-914d-0727e5c49fd1)
+
+
+* I'm going to call the user `amplify-dev` you can choose another name if you want then click next
+
+![7](https://github.com/julien-muke/aws-amplify-cognito-app/assets/110755734/680bd858-a23d-43fe-be5e-343996e2d4c9)
+
+
+* Next, for permissions options select `attach policies directly` then select the policy called `AdministratorAccess-Amplify` 
+(if you don't see the policy name you can just type in amplify in the search bar and that will filter for you the policy name)
+
+![8](https://github.com/julien-muke/aws-amplify-cognito-app/assets/110755734/43ebf783-f0c7-48d1-ae1b-8cecaf84f788)
+
+
+* 
