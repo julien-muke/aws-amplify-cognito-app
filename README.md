@@ -422,3 +422,8 @@ N.B: in the real world you'd probably want a database or you want to get these f
 * Then back in `app.js` we had commented out these two lines, put that back in: `import Quiz from './Quiz';` and `<Quiz /> ` save that file and when you save it your page should refresh, you should see the quiz game 
 
 ![28](https://github.com/julien-muke/aws-amplify-cognito-app/assets/110755734/7c88bd86-7e2f-4bf9-8188-53289d3f835d)
+
+
+## ➡️ Step 5 - Create a new GitHub repository and push local code to it
+
+
