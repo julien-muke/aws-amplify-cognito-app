@@ -362,3 +362,19 @@ with the default
 5. We don't want to do any advanced settings
 
 ![20](https://github.com/julien-muke/aws-amplify-cognito-app/assets/110755734/cefbd17c-472c-4ccc-b1b4-97003a579f69)
+
+
+* Let's push everything to AWS by running the command `amplify push` then hit continue, and everything will be deployed.
+
+![21](https://github.com/julien-muke/aws-amplify-cognito-app/assets/110755734/def8ff53-d521-4fe8-9d70-4267e41538a2)
+
+
+
+* Validating the Cognito user pool was successfully created:
+
+Cognito is built around the concept of a user pool, which is basically a pool of users that are going to register and log into your application, if you check the back to Cognito console, we should see a new user pool created for us
+
+![22](https://github.com/julien-muke/aws-amplify-cognito-app/assets/110755734/46178d2b-6c55-4bc4-b007-4ae61a0a6a57)
+
+
+
