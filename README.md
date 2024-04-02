@@ -429,3 +429,4 @@ N.B: in the real world you'd probably want a database or you want to get these f
 
 If this is all you want to do, create a new GitHub repository and push the code, its just run your frontend locally on your Local Host and use Cognito on the backend then you're good to go. But in the real world, it's more likely that you're going to have your code in GitHub or another source control repository, you're going to hook that up to AWS Amplify and host the frontend online.
 
+We have our code in vs code currently, what we want to do is push that out to a new GitHub repo and then we want to set up amplify to pull from that repo and Amplify will host the frontend. Also whenever we make a change to the code in GitHub we want to trigger a new build and deploy in Amplify so basically a continuous integration continuous deployment cicd pipeline that you're setting up here
