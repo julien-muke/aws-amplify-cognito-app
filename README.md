@@ -377,4 +377,35 @@ Cognito is built around the concept of a user pool, which is basically a pool of
 ![22](https://github.com/julien-muke/aws-amplify-cognito-app/assets/110755734/46178d2b-6c55-4bc4-b007-4ae61a0a6a57)
 
 
+* Adding the aws-amplify/ui-react libraries for the Cognito sign-in UI: Let's get the UI set up enough that we can actually create an account and log in as a new user.
 
+* Back to vs code, i'm going to open up the `app.js` file, this is our main file for the react application, i'm going to replace code with my code that i put out in GitHub (grab the code above in "Code Snippets")
+
+* Before test our react app, we do have the quiz functionality in the code in which we haven't implemented yet so let me just comment that out first: its `import Quiz from './Quiz';` and `<Quiz />`
+
+![Screenshot 2024-04-02 at 11 36 31](https://github.com/julien-muke/aws-amplify-cognito-app/assets/110755734/8efc8b4c-a483-44c1-b8a5-160eaba89621)
+
+
+* There's one other thing we need to do, we need to install the amplify libraries that give us the Login user interface, to do that we will run the command `npm install aws-amplify @aws-amplify/ui-react` then `npm start`
+
+![23](https://github.com/julien-muke/aws-amplify-cognito-app/assets/110755734/63250cf0-817c-4141-a430-9754cec66951)
+
+
+* Running the React app to register for an account and log in using Cognito, Open http://localhost:3000 in your browser to view the app.
+
+![25](https://github.com/julien-muke/aws-amplify-cognito-app/assets/110755734/3d72bdaf-5162-409a-8688-e08607983f68)
+
+* To create an account or sign in, you do need to use a valid email, it's going to send you a code that you have to use to activate the email
+
+
+![25](https://github.com/julien-muke/aws-amplify-cognito-app/assets/110755734/4db2061e-8f67-4bcc-8883-1af075345c66)
+
+* I'll enter my email password and create the account, it has emailed me a code i'll go grab that confirmation code, enter that  and confirm, this is a legit user account and that logged me in
+
+![26](https://github.com/julien-muke/aws-amplify-cognito-app/assets/110755734/a39f068c-b353-4e07-869e-54fd1293cb0a)
+
+
+* Now if we go back to Cognito console and look at our user pool and refresh the users you'll see that we have one user
+
+
+![27](https://github.com/julien-muke/aws-amplify-cognito-app/assets/110755734/7621ea2d-5517-411d-9586-025cbdab4f8e)
