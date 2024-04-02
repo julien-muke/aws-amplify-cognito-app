@@ -409,3 +409,16 @@ Cognito is built around the concept of a user pool, which is basically a pool of
 
 
 ![27](https://github.com/julien-muke/aws-amplify-cognito-app/assets/110755734/7621ea2d-5517-411d-9586-025cbdab4f8e)
+
+
+## ➡️ Step 4 - Adding functionality and styling for the quiz
+
+* I do have some code out in our repo (in Code Snippets) that you can grab for quiz, just copy all the code and then back in VS code you will to add a new file under the `src` folder and call it `quiz.js` and then just paste all of that code and save
+* Then you want a second file in the same location `src` older, this one is called `quizdata.js` and let me grab that code (in Code Snippets)
+
+N.B: in the real world you'd probably want a database or you want to get these from an API or something like that but we're just keeping things simple for the tutorial.
+
+
+* Then back in `app.js` we had commented out these two lines, put that back in: `import Quiz from './Quiz';` and `<Quiz /> ` save that file and when you save it your page should refresh, you should see the quiz game 
+
+![28](https://github.com/julien-muke/aws-amplify-cognito-app/assets/110755734/7c88bd86-7e2f-4bf9-8188-53289d3f835d)
