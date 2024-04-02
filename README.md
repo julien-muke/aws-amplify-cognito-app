@@ -427,3 +427,5 @@ N.B: in the real world you'd probably want a database or you want to get these f
 ## ➡️ Step 5 - Create a new GitHub repository and push local code to it
 
 
+If this is all you want to do, create a new GitHub repository and push the code, its just run your frontend locally on your Local Host and use Cognito on the backend then you're good to go. But in the real world, it's more likely that you're going to have your code in GitHub or another source control repository, you're going to hook that up to AWS Amplify and host the frontend online.
+
