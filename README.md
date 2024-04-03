@@ -482,3 +482,18 @@ N.B: If you don't see your repository in the dropdown above, ensure the Amplify 
 * I will name the role `amplifyconsole-backend-role` scroll down and "Create role"
 
 ![36](https://github.com/julien-muke/aws-amplify-cognito-app/assets/110755734/e087eff3-53cb-406f-998c-7f84d7d8b571)
+
+
+* Let's go back to amplify and selct the role, you'll probably have to do a refresh and select the role we've created, then click "Next" and "Save and Deploy"
+
+![37](https://github.com/julien-muke/aws-amplify-cognito-app/assets/110755734/d052505e-4ae4-4963-ac92-d8dbd273d478)
+
+
+* You can watch the progress as it's going along, it will start to provision, build (it's gone out grabbed our code out of GitHub doing the build) and then it's going to deploy it
+
+![38](https://github.com/julien-muke/aws-amplify-cognito-app/assets/110755734/b717e4e5-83bb-4777-8e94-f080395a8ab4)
+
+
+* Very shortly we should be able to launch our URL and see our quiz running in cloud
+
+![40](https://github.com/julien-muke/aws-amplify-cognito-app/assets/110755734/5e6c3b69-5b61-449b-8c56-63bf52a9442d)
