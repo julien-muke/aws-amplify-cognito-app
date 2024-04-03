@@ -474,9 +474,11 @@ N.B: If you don't see your repository in the dropdown above, ensure the Amplify 
 ![33](https://github.com/julien-muke/aws-amplify-cognito-app/assets/110755734/82a8bff4-220d-44e4-90af-6f74c403e472)
 
 
-* and then we'll need a service Ro
-Creatin a new service role for Amplify Hosting
-that gives amplify hosting access to our
-resources 
+* We need to create a new service role for Amplify Hosting, that gives amplify hosting access to our resources, click on "Create new role"
 
+![33 (1)](https://github.com/julien-muke/aws-amplify-cognito-app/assets/110755734/bbce394d-174d-4610-ae22-d6bba4823f91)
 
+* Then you just basically walk through and take all the defaults
+* I will name the role `amplifyconsole-backend-role` scroll down and "Create role"
+
+![36](https://github.com/julien-muke/aws-amplify-cognito-app/assets/110755734/e087eff3-53cb-406f-998c-7f84d7d8b571)
