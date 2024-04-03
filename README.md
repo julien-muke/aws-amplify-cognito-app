@@ -501,3 +501,5 @@ N.B: If you don't see your repository in the dropdown above, ensure the Amplify 
 
 
 * 🏆 Success 🏆 the build worked the deploy worked and now if we click on the link, that should take us to our Amplify App, we're no longer on Local Host obviously we should be able to sign in using that email address that we created earlier, this is still using the same user pool and has that account that we created.
+
+* To test continuous integration continuous deployment (CI/CD) with a GitHub commit, you can to your GitHub repo and update the code by changing the data on `quizData.js`
