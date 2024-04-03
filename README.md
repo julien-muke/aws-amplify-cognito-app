@@ -432,9 +432,36 @@ In the real world, it's more likely that you're going to have your code in GitHu
 We have our code in VS code currently, what we want to do is push that out to a new GitHub repo and then we want to set up amplify to pull from that repo and Amplify will host the frontend. Also whenever we make a change to the code in GitHub we want to trigger a new build and deploy in Amplify, so basically a Continuous Integration Continuous Deployment (CICD Pipeline).
 
 1. Push local code to GitHub, i will create a new repo and name it `aws-amplify-cognito-quiz` 
+
+
+
 2. Switch over to visual studio code and run `git init` to initialize the repo for the project
 3. Run `git add .` to add everything that we have changed
 4. Run `git commit -m "commit message"` to commit all the changes
 5. Run `git branch -m main`
-6. Run `git remote add origin <repository URL>` paste the repo that we created earlier
-7. Run `git push –u origin main`
+6. Run `git remote add origin <repository URL>` paste the repo URL that we just created
+7. Finally run `git push –u origin main`
+
+All the code will pushed the new repo from VS code out to GitHub.
+
+
+## ➡️ Step 6 - Setting up Amplify hosting and CI/CI from GitHub
+
+Now we need to hook setting up Amplify hosting and CI/CD from GitHub up amplify
+
+* Back Cognito console, choose GitHub as hosting environment 
+
+![30](https://github.com/julien-muke/aws-amplify-cognito-app/assets/110755734/f1ec0eac-fe21-4760-af79-cf91be1041b9)
+
+
+* Then select the Repository mine should be called `aws-amplify-cognito-quiz`
+
+N.B: If you don't see your repository in the dropdown above, ensure the Amplify GitHub App has permissions to the repository. If your repository still doesn't appear, push a commit and click the refresh button.
+
+
+![31](https://github.com/julien-muke/aws-amplify-cognito-app/assets/110755734/ebe74580-b43f-4d42-bbd2-624bef2bb636)
+
+
+
+
+
