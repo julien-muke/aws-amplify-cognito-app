@@ -505,3 +505,7 @@ N.B: If you don't see your repository in the dropdown above, ensure the Amplify 
 * To test continuous integration continuous deployment (CI/CD) with a GitHub commit, you can go to your GitHub repo and update the code by changing the data on `quizData.js`
 
 * After you commit the changes to the main branch, as soon as that happens Amplify should detect the change we made, it's doing the provision, build and deploy. 
+
+
+## 💰 Cost
+All services used are eligible for the AWS Free Tier. However, charges will incur at some point so it's recommended that you shut down resources after completing this tutorial.
