@@ -427,6 +427,14 @@ N.B: in the real world you'd probably want a database or you want to get these f
 ## ➡️ Step 5 - Create a new GitHub repository and push local code to it
 
 
-If this is all you want to do, create a new GitHub repository and push the code, its just run your frontend locally on your Local Host and use Cognito on the backend then you're good to go. But in the real world, it's more likely that you're going to have your code in GitHub or another source control repository, you're going to hook that up to AWS Amplify and host the frontend online.
+In the real world, it's more likely that you're going to have your code in GitHub or another source control repository, you're going to hook that up to AWS Amplify and host the frontend online.
 
-We have our code in vs code currently, what we want to do is push that out to a new GitHub repo and then we want to set up amplify to pull from that repo and Amplify will host the frontend. Also whenever we make a change to the code in GitHub we want to trigger a new build and deploy in Amplify so basically a continuous integration continuous deployment cicd pipeline that you're setting up here
+We have our code in VS code currently, what we want to do is push that out to a new GitHub repo and then we want to set up amplify to pull from that repo and Amplify will host the frontend. Also whenever we make a change to the code in GitHub we want to trigger a new build and deploy in Amplify, so basically a Continuous Integration Continuous Deployment (CICD Pipeline).
+
+1. Push local code to GitHub, i will create a new repo and name it `aws-amplify-cognito-quiz` 
+2. Switch over to visual studio code and run `git init` to initialize the repo for the project
+3. Run `git add .` to add everything that we have changed
+4. Run `git commit -m "commit message"` to commit all the changes
+5. Run `git branch -m main`
+6. Run `git remote add origin <repository URL>` paste the repo that we created earlier
+7. Run `git push –u origin main`
