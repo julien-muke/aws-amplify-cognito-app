@@ -456,12 +456,27 @@ Now we need to hook setting up Amplify hosting and CI/CD from GitHub up amplify
 
 * Then select the Repository mine should be called `aws-amplify-cognito-quiz`
 
+![32](https://github.com/julien-muke/aws-amplify-cognito-app/assets/110755734/4cd8afb1-dfdf-4299-81b9-109e9ab3bbf9)
+
+
 N.B: If you don't see your repository in the dropdown above, ensure the Amplify GitHub App has permissions to the repository. If your repository still doesn't appear, push a commit and click the refresh button.
 
 
 ![31](https://github.com/julien-muke/aws-amplify-cognito-app/assets/110755734/ebe74580-b43f-4d42-bbd2-624bef2bb636)
 
 
+* For app name i'll leave this as it (`aws-amplify-cognito-quiz`)
+* The backend should be called `myquizapp` 
+* Then there should be an environment called `Dev`
+* We want to enable full stack CI/CD so anytime we make a change in the GitHub repo that will trigger a new build and deployment   in amplify
 
+
+![33](https://github.com/julien-muke/aws-amplify-cognito-app/assets/110755734/82a8bff4-220d-44e4-90af-6f74c403e472)
+
+
+* and then we'll need a service Ro
+Creatin a new service role for Amplify Hosting
+that gives amplify hosting access to our
+resources 
 
 
