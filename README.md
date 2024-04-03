@@ -496,4 +496,8 @@ N.B: If you don't see your repository in the dropdown above, ensure the Amplify 
 
 * Very shortly we should be able to launch our URL and see our quiz running in cloud
 
+
 ![40](https://github.com/julien-muke/aws-amplify-cognito-app/assets/110755734/5e6c3b69-5b61-449b-8c56-63bf52a9442d)
+
+
+* 🏆 Success 🏆 the build worked the deploy worked and now if we click on the link, that should take us to our Amplify App, we're no longer on Local Host obviously we should be able to sign in using that email address that we created earlier, this is still using the same user pool and has that account that we created.
