@@ -388,9 +388,6 @@ Cognito is built around the concept of a user pool, which is basically a pool of
 
 * There's one other thing we need to do, we need to install the amplify libraries that give us the Login user interface, to do that we will run the command `npm install aws-amplify @aws-amplify/ui-react` then `npm start`
 
-![23](https://github.com/julien-muke/aws-amplify-cognito-app/assets/110755734/63250cf0-817c-4141-a430-9754cec66951)
-
-
 * Running the React app to register for an account and log in using Cognito, Open http://localhost:3000 in your browser to view the app.
 
 ![25](https://github.com/julien-muke/aws-amplify-cognito-app/assets/110755734/3d72bdaf-5162-409a-8688-e08607983f68)
